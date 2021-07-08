@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    background-color: #3E2723;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.unlist {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.unlist a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+.unlist a:hover {
+    color: #d4b8b3;
+    transform: rotate(8deg);
+}
+
+.hero {
+    background-color: #d4b8b3;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-inner {
+    max-width: 760px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.learn-button {
+    background-color: #350A0A;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+
+.features {
+    background-color: #f5eee5;
+}
+.features-inner {
+    max-width: 1200px;
+    padding: 60px 45px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 45px;
+}
+
+.features-item h3{
+    color: #8a6303;
+    margin: 0;
+}
+
+.features-item p{
+    line-height: 1.7;
+}
+
+.footer {
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    font-size: .8rem;
+}
